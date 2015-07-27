@@ -7,7 +7,7 @@ Pod::Spec.new do |s|
                    DESC
   s.homepage     = "https://jiver.io"
   s.license      = "Commercial"
-  s.author       = { "Jed Gyeong" => "jed@jiver.co" }
+  s.author       = { "Jed Gyeong" => "jed@jiver.io" }
   s.source       = { :git => "https://github.com/smilefam/jiver-ios-framework.git", :tag => "v#{s.version}" }
   s.requires_arc = true
 

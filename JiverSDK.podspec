@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JiverSDK"
-  s.version      = "1.1.22"
+  s.version      = "1.1.23"
   s.summary      = "JIVER iOS Framework"
   s.description  = <<-DESC
                    JIVER is the simplest solution for chat and messaging.
@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.platform = :ios, "7.0"
   s.ios.vendored_frameworks = 'JiverSDK.framework'
-#  s.ios.frameworks = ["AdSupport", "UIKit", "QuartzCore", "CFNetwork", "Security", "Foundation", "MobileCoreServices"]
+  s.ios.frameworks = ["AdSupport", "UIKit", "QuartzCore", "CFNetwork", "Security", "Foundation", "MobileCoreServices"]
 #  s.ios.library   = "icucore"
 end

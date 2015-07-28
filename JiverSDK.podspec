@@ -14,6 +14,6 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "7.0"
   s.ios.platform = :ios, "7.0"
   s.ios.vendored_frameworks = 'JiverSDK.framework'
-  s.ios.frameworks = ["AdSupport", "UIKit", "QuartzCore", "CFNetwork", "Security", "Foundation", "MobileCoreServices"]
-  s.ios.library   = "icucore"
+#  s.ios.frameworks = ["AdSupport", "UIKit", "QuartzCore", "CFNetwork", "Security", "Foundation", "MobileCoreServices"]
+#  s.ios.library   = "icucore"
 end

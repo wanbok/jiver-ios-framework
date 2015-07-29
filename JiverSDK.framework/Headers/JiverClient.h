@@ -23,16 +23,16 @@
 #import "JiverMember.h"
 #import "JiverWSClient.h"
 
-void (^onMessageReceived)(JiverMessage *message);
-void (^onSystemMessageReceived)(JiverSystemMessage *message);
-void (^onBroadcastMessageReceived)(JiverBroadcastMessage *message);
-void (^onFileReceived)(JiverFileLink *fileLink);
-void (^onMessagingStarted)(JiverMessagingChannel *channel);
-void (^onMessagingUpdated)(JiverMessagingChannel *channel);
-void (^onMessagingEnded)(JiverMessagingChannel *channel);
-void (^onReadReceived)(JiverReadStatus *status);
-void (^onTypeStartReceived)(JiverTypeStatus *status);
-void (^onTypeEndReceived)(JiverTypeStatus *status);
+//extern void (^onMessageReceived)(JiverMessage *message);
+//extern void (^onSystemMessageReceived)(JiverSystemMessage *message);
+//extern void (^onBroadcastMessageReceived)(JiverBroadcastMessage *message);
+//extern void (^onFileReceived)(JiverFileLink *fileLink);
+//extern void (^onMessagingStarted)(JiverMessagingChannel *channel);
+//extern void (^onMessagingUpdated)(JiverMessagingChannel *channel);
+//extern void (^onMessagingEnded)(JiverMessagingChannel *channel);
+//extern void (^onReadReceived)(JiverReadStatus *status);
+//extern void (^onTypeStartReceived)(JiverTypeStatus *status);
+//extern void (^onTypeEndReceived)(JiverTypeStatus *status);
 
 @interface JiverClient : NSObject
 

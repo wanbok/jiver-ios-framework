@@ -10,7 +10,7 @@
 		</data>
 		<key>Headers/JiverAPIClient.h</key>
 		<data>
-		XIMqVgTkygWQz0NyBxy3lZaDV38=
+		EEZtO92bqCeEdhNvX5/A8ggdrRQ=
 		</data>
 		<key>Headers/JiverBroadcastMessage.h</key>
 		<data>
@@ -112,21 +112,13 @@
 		<data>
 		vCOD8BDNCXPm7umXNejF7YII3/8=
 		</data>
-		<key>Headers/NSDictionary+JSONString.h</key>
-		<data>
-		wSV4wmPHduF7ctv6QloAJMLuz6o=
-		</data>
-		<key>Headers/NSString+OccurenceCount.h</key>
-		<data>
-		BgjHJxjBbEkW1nrct3hEhzW182A=
-		</data>
 		<key>Headers/SRWebSocket.h</key>
 		<data>
 		qhsyLSClO2409XNlMlfT7HeITSk=
 		</data>
 		<key>Info.plist</key>
 		<data>
-		klS2QnYjs0X2lqvsWeOf0SZErn0=
+		5C9rZgT4bmQ0dvsBXXyrb4irHe8=
 		</data>
 		<key>Modules/module.modulemap</key>
 		<data>
@@ -141,7 +133,7 @@
 		</data>
 		<key>Headers/JiverAPIClient.h</key>
 		<data>
-		XIMqVgTkygWQz0NyBxy3lZaDV38=
+		EEZtO92bqCeEdhNvX5/A8ggdrRQ=
 		</data>
 		<key>Headers/JiverBroadcastMessage.h</key>
 		<data>
@@ -242,14 +234,6 @@
 		<key>Headers/JiverWSClient.h</key>
 		<data>
 		vCOD8BDNCXPm7umXNejF7YII3/8=
-		</data>
-		<key>Headers/NSDictionary+JSONString.h</key>
-		<data>
-		wSV4wmPHduF7ctv6QloAJMLuz6o=
-		</data>
-		<key>Headers/NSString+OccurenceCount.h</key>
-		<data>
-		BgjHJxjBbEkW1nrct3hEhzW182A=
 		</data>
 		<key>Headers/SRWebSocket.h</key>
 		<data>

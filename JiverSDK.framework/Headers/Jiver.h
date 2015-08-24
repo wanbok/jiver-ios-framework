@@ -75,17 +75,23 @@ typedef enum {
 + (void) initByIDFAWithBundle:(NSBundle *)bundle andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
 + (void) initUserId:(NSString *)userId withBundle:(NSBundle *)bundle andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
 
-+ (void) initUserId:(NSString *)userId andAppId:(NSString *)appId;
-+ (void) initUserId:(NSString *)userId andAppId:(NSString *)appId selectDeviceId:(int)deviceIdType;
++ (void) initUserId:(NSString *)userId andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
++ (void) initUserId:(NSString *)userId andAppId:(NSString *)appId selectDeviceId:(int)deviceIdType DEPRECATED_ATTRIBUTE;
+
++ (void) initAppId:(NSString *)appId;
++ (void) initAppId:(NSString *)appId selectDeviceId:(int)deviceIdType;
 
 + (void) igawInitByIDFVWithBundle:(NSBundle *)bundle andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
 + (void) igawInitByIDFAWithBundle:(NSBundle *)bundle andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
 + (void) igawInitUserId:(NSString *)userId withBundle:(NSBundle *)bundle andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
 
-+ (void) igawInitByIDFVWithAppId:(NSString *)appId;
-+ (void) igawInitByIDFAWithAppId:(NSString *)appId;
-+ (void) igawInitUserId:(NSString *)userId andAppId:(NSString *)appId;
-+ (void) igawInitUserId:(NSString *)userId andAppId:(NSString *)appId selectDeviceId:(int)deviceIdType;
++ (void) igawInitByIDFVWithAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
++ (void) igawInitByIDFAWithAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
++ (void) igawInitUserId:(NSString *)userId andAppId:(NSString *)appId DEPRECATED_ATTRIBUTE;
++ (void) igawInitUserId:(NSString *)userId andAppId:(NSString *)appId selectDeviceId:(int)deviceIdType DEPRECATED_ATTRIBUTE;
+
++ (void) igawInitAppId:(NSString *)appId;
++ (void) igawInitAppId:(NSString *)appId selectDeviceId:(int)deviceIdType;
 
 + (void) loginWithUserName:(NSString *)userName;
 + (void) loginWithUserName:(NSString *)userName andUserImageUrl:(NSString *)imageUrl;

@@ -1,6 +1,6 @@
 Pod::Spec.new do |s|
   s.name         = "JiverSDK"
-  s.version      = "1.1.29"
+  s.version      = "1.1.30"
   s.summary      = "JIVER iOS Framework"
   s.description  = <<-DESC
                    JIVER is the simplest solution for chat and messaging.
